@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 # ==============================
 # 2. Criando o dataset
 # ==============================
-# Exemplo de frases em português com rótulos
+
 data = {
     "frase": [
         "Eu amei este filme, foi maravilhoso!",
