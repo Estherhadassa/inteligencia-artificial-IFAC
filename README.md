@@ -1,52 +1,83 @@
-# inteligencia-artificial-IFAC
-Repositório de resolução de atividades da disciplina optativa de Inteligência Artificial
+# 🤖 Inteligência Artificial — IFAC
 
+Repositório destinado à resolução das atividades da disciplina optativa de **Inteligência Artificial**, ministrada pelo **Professor Breno Carrillo Silveira**, no IFAC.
 
-# 🤖 Inteligência Artificial — Atividades da Disciplina
-
-Este repositório reúne as atividades práticas desenvolvidas na disciplina de **Inteligência Artificial**, ministrada pelo **Professor Breno Carrillo Silveira**.
-
-As implementações têm como objetivo aplicar, na prática, conceitos fundamentais de Inteligência Artificial, Aprendizado de Máquina e Processamento de Linguagem Natural, utilizando a linguagem **Python** e bibliotecas amplamente utilizadas na área.
+As atividades aqui desenvolvidas têm como objetivo aplicar, de forma prática, os principais conceitos de **Inteligência Artificial**, **Aprendizado de Máquina**, **Processamento de Linguagem Natural (PLN)** e **Aprendizado por Reforço**, utilizando a linguagem **Python** e bibliotecas amplamente adotadas na área.
 
 ---
 
 ## 🎯 Objetivo do Repositório
 
 - Centralizar os códigos desenvolvidos ao longo da disciplina;
-- Aplicar conceitos teóricos vistos em aula por meio de exercícios práticos;
-- Explorar técnicas de **Machine Learning**, **classificação** e **Processamento de Linguagem Natural (PLN)**;
+- Aplicar conceitos teóricos por meio de exercícios práticos;
+- Explorar técnicas de:
+  - Machine Learning supervisionado;
+  - Classificação de dados e textos;
+  - Processamento de Linguagem Natural;
+  - Aprendizado por Reforço;
 - Servir como material de estudo e referência para aprendizado contínuo em Inteligência Artificial.
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-O repositório está organizado de acordo com os exercícios propostos ao longo da disciplina, normalmente separados por partes ou etapas evolutivas.
+O repositório está organizado conforme os desafios e exercícios propostos ao longo da disciplina, normalmente divididos em pastas por tema ou etapa.
 
-Exemplo de organização:
+### Exemplo de organização:
 
 ```text
+📁 desafio-02-pathfinding
+ └── Implementações de algoritmos de busca de caminhos
+
+📁 desafio-03-reforco-cartpole
+ ├── main.py
+ ├── q_learning_cartpole.py
+ ├── random_agent.py
+ ├── test_cartpole.py
+ └── desafio-03-xadrez-4-jogadores
+     ├── agent.py
+     ├── environment.py
+     ├── train.py
+     ├── play.py
+     ├── main.py
+     └── __pycache__/
+
 📁 Exercício 01 - Análise de Sentimentos
  ├── Parte I
  ├── Parte II
- ├── Parte III
- └── Parte IV
+ └── Parte III
 
+📁 jogo-da-velha-ia
+ └── Implementação de IA para jogo da velha
 
-Ao longo das atividades desenvolvidas neste repositório, são trabalhados os seguintes conceitos:
+📄 README.md
 
-Fundamentos de Inteligência Artificial;
+🧠 Conceitos Trabalhados
+Ao longo das atividades desenvolvidas neste repositório, são abordados os seguintes conceitos:
 
-Aprendizado de Máquina supervisionado;
+🔹 Fundamentos de IA
+Conceitos básicos de Inteligência Artificial;
 
-Classificação de textos;
+Modelagem de problemas e tomada de decisão.
+
+🔹 Aprendizado de Máquina
+Aprendizado supervisionado;
 
 Regressão Logística;
 
 Classificador Naive Bayes;
 
-Processamento de Linguagem Natural (PLN);
+Avaliação de modelos:
 
+Acurácia;
+
+Matriz de confusão;
+
+Análise de falsos positivos e falsos negativos;
+
+Interpretação dos resultados.
+
+🔹 Processamento de Linguagem Natural (PLN)
 Pré-processamento de textos:
 
 Tokenização;
@@ -57,43 +88,50 @@ Stemming;
 
 Vetorização de textos com TF-IDF;
 
-Avaliação de modelos de classificação:
+Classificação de sentimentos em textos em português.
 
-Acurácia;
+🔹 Aprendizado por Reforço
+Interação agente–ambiente;
 
-Matriz de confusão;
+Sistema de recompensas;
 
-Análise de falsos positivos e falsos negativos;
+Implementação de ambientes com Gymnasium;
 
-Interpretação dos resultados;
+Aprendizado por reforço em:
 
-Visualização e análise do desempenho dos modelos.
+CartPole;
+
+Jogo inspirado em xadrez com quatro jogadores.
 
 📊 Exemplo de Atividade Desenvolvida
+🔸 Análise de Sentimentos
+Implementação de um sistema capaz de classificar frases em português como positivas ou negativas, incluindo:
 
-Um dos principais exercícios implementados é um sistema de Análise de Sentimentos, capaz de classificar frases em português como positivas ou negativas.
-
-Esse exercício inclui:
-
-Construção de um conjunto de dados textual;
+Construção do conjunto de dados;
 
 Treinamento de diferentes classificadores;
 
 Comparação entre modelos;
 
-Avaliação do desempenho com métricas estatísticas;
+Avaliação com métricas estatísticas;
 
 Exibição da matriz de confusão;
 
-Análise das palavras mais relevantes para a tomada de decisão do modelo;
+Análise das palavras mais relevantes para decisão do modelo;
 
 Testes com frases inseridas pelo usuário.
 
+🔸 Aprendizado por Reforço
+Execução do ambiente CartPole com visualização gráfica;
+
+Implementação de um jogo de xadrez simplificado para quatro jogadores;
+
+Aplicação de Q-Learning para tomada de decisão do agente.
+
 🛠️ Tecnologias Utilizadas
-
-As principais tecnologias e bibliotecas utilizadas são:
-
 Python 3
+
+Gymnasium
 
 scikit-learn
 
@@ -106,9 +144,5 @@ NumPy
 Matplotlib
 
 👩‍💻 Autoria
+Desenvolvido por Esther Hadassa, como parte das atividades acadêmicas da disciplina de Inteligência Artificial.
 
-- Repositório desenvolvido por  Esther Hadassa, como parte das atividades acadêmicas da disciplina de Inteligência Artificial.
-
-📚 Observação
-
-Este repositório possui finalidade exclusivamente educacional e reflete o processo de aprendizagem ao longo da disciplina.
